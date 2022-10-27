@@ -1,0 +1,1 @@
+export { default as Logo} from '../image/svg/log.svg'

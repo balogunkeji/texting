@@ -1,0 +1,22 @@
+.layout{
+    width: 100%;
+    height: max-content;
+    min-height: calc(100vh - 75px);
+    background: #fff;
+    padding: 100px 60px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+@media (max-width: 1000px) {
+    .layout{
+     padding: 100px 25px   
+    }
+  }
+
+  @media (max-width: 800px) {
+    .layout{
+     padding: 100px 15px   
+    }
+  }
+  
